@@ -4,13 +4,14 @@ MikuMikuDance player on WebGL.
 
 ## Demo
 
-- http://edv.sakura.ne.jp/mmd/
+- https://mmd-js.netlify.app/
 
 ## Features
 
 - PMD (model) and VMD (motion) parsers
 - Shader that's almost compatible with MMD
 - Camera, light and morph animation
+- Audio support (new)
 
 Yet to come
 
@@ -34,7 +35,7 @@ coffee --join MMD.js --compile src/MMD.coffee src/MMD.AudioSource.coffee src/MMD
 
 ## Dependence
 
-- glMatrix.js <https://github.com/toji/gl-matrix>
+- glMatrix.js (1.x) <https://github.com/toji/gl-matrix>
 
 ## License
 

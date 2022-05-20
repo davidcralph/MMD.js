@@ -10,14 +10,10 @@ window.onload = function() {
   var mmd = new MMD(canvas, canvas.width, canvas.height);
   mmd.initShaders();
   mmd.initParameters();
-  mmd.registerKeyListener(document);
-  mmd.registerMouseListener(document);
+  mmd.registerKeyListener(canvas);
+  mmd.registerMouseListener(canvas);
 
   var miku = new MMD.Model('model', 'Miku_Hatsune_Ver2.pmd');
-  //var miku = new MMD.Model('Lat', 'Normal.pmd');
-  //var miku = new MMD.Model('mobko', 'mobko.pmd');
-  //var miku = new MMD.Model('yufu', 'yufu.pmd');
-  //var miku = new MMD.Model('defoko', 'defoko.pmd');
   var audio = new MMD.AudioSource('audio', 'wow.mp3', 1);
   audio.load(function() {
     document.addEventListener('mousedown', function(e) {
