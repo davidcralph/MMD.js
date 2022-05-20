@@ -18,6 +18,12 @@ window.onload = function() {
   //var miku = new MMD.Model('mobko', 'mobko.pmd');
   //var miku = new MMD.Model('yufu', 'yufu.pmd');
   //var miku = new MMD.Model('defoko', 'defoko.pmd');
+  var audio = new MMD.AudioSource('audio', 'wow.mp3', 1);
+  audio.load(function() {
+    document.addEventListener('mousedown', function(e) {
+      audio.play();
+    });
+  });
   miku.load(function() {
     mmd.addModel(miku);
     mmd.initBuffers();

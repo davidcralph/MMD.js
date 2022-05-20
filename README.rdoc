@@ -21,7 +21,6 @@ Maybe to come
 
 - Multi-model
 - Direct X accessories (.x)
-- Playing audio
 
 Likely NOT to come
 
@@ -30,7 +29,7 @@ Likely NOT to come
 == Build
 
 ```
-coffee --join MMD.js --compile src/MMD.coffee src/MMD.*.coffee
+coffee --join MMD.js --compile src/MMD.coffee src/MMD.AudioSource.coffee src/MMD.FragmentShaderSource.coffee src/MMD.Model.coffee src/MMD.Motion.coffee src/MMD.MotionManager.coffee src/MMD.ShadowMap.coffee src/MMD.TextureManager.coffee src/MMD.VertexShaderSource.coffee
 ```
 
 == Dependence
@@ -53,7 +52,12 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 
 - higuchuu for developing the original MikuMikuDance software <http://www.geocities.jp/higuchuu4/>
 - MMDAgent project <http://www.mmdagent.jp/> and MikuMikuStudio project <http://sourceforge.jp/projects/mikumikustudio/> for high quality open source MMD clones. (I did not use their code, but studied them extensively)
+- daniwell for creating the song used in the "audio/" folder "Wonder of Wonder - daniwell feat. HatsuneMiku" (permission is granted in <https://aidn.jp/about/>)
 
 == Author
 
 Atsushi Takayama
+
+== Fork Author
+
+David Ralph
