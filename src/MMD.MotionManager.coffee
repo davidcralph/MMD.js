@@ -34,11 +34,11 @@ class MMD.MotionManager
     }
 
   addCameraLightMotion: (motion, merge_flag, frame_offset) ->
-    @addCameraMotoin(motion.camera, merge_flag, frame_offset)
-    @addLightMotoin(motion.light, merge_flag, frame_offset)
+    @addCameraMotion(motion.camera, merge_flag, frame_offset)
+    @addLightMotion(motion.light, merge_flag, frame_offset)
     return
 
-  addCameraMotoin: (camera, merge_flag, frame_offset) ->
+  addCameraMotion: (camera, merge_flag, frame_offset) ->
     return if camera.length == 0
     if not merge_flag
       @cameraMotion = []
@@ -54,7 +54,7 @@ class MMD.MotionManager
     @cameraFrames = @cameraFrames.sort((a, b) -> a - b)
     return
 
-  addLightMotoin: (light, merge_flag, frame_offset) ->
+  addLightMotion: (light, merge_flag, frame_offset) ->
     return if light.length == 0
     if not merge_flag
       @lightMotion = []
