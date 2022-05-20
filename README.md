@@ -49,10 +49,13 @@ The above copyright notice and this permission notice shall be included in all c
 THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 
 ## Acknowledgements
-
+(Atsushi's acknowledgements)
 - higuchuu for developing the original MikuMikuDance software <http://www.geocities.jp/higuchuu4/>
 - MMDAgent project <http://www.mmdagent.jp/> and MikuMikuStudio project <http://sourceforge.jp/projects/mikumikustudio/> for high quality open source MMD clones. (I did not use their code, but studied them extensively)
+
+(David's acknowledgements)
 - daniwell for creating the song used in the "audio/" folder "Wonder of Wonder - daniwell feat. HatsuneMiku" (permission is granted in <https://aidn.jp/about/>)
+- RicoP's fork was used to port the requestAnimationFrame code over <https://github.com/RicoP/MMD.js/commit/74d1550bff33ae9e3123f954f61a42f3fb014b91>
 
 ## Author
 

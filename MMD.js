@@ -2191,11 +2191,11 @@ void main() {
     }
 
     addCameraLightMotion(motion, merge_flag, frame_offset) {
-      this.addCameraMotoin(motion.camera, merge_flag, frame_offset);
-      this.addLightMotoin(motion.light, merge_flag, frame_offset);
+      this.addCameraMotion(motion.camera, merge_flag, frame_offset);
+      this.addLightMotion(motion.light, merge_flag, frame_offset);
     }
 
-    addCameraMotoin(camera, merge_flag, frame_offset) {
+    addCameraMotion(camera, merge_flag, frame_offset) {
       var c, frame, k, len;
       if (camera.length === 0) {
         return;
@@ -2219,7 +2219,7 @@ void main() {
       });
     }
 
-    addLightMotoin(light, merge_flag, frame_offset) {
+    addLightMotion(light, merge_flag, frame_offset) {
       var frame, k, l, len;
       if (light.length === 0) {
         return;
